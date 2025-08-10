@@ -1,0 +1,25 @@
+h1 {
+  /* màu chữ CTRl + */
+  color: blueviolet;
+  /* căn giữa */
+  text-align: center;
+  /* kiểu chữ */
+  font-style: italic;
+  /* font chữ */
+  font-family: Arial, Helvetica, sans-serif;
+  /*  chuyển viết hoa viết thường  */
+  text-transform: uppercase;
+  /* cỡ chữ */
+  font-size: 18px;
+  /* độ mờ trong suốt  */
+  opacity: 70%;
+}
+
+h2 {
+  background-color: aqua;
+  visibility: visible;
+}
+
+body {
+  background-image: url(./img/0fdebd18632f9ebaf6bcc2383412d775.jpg);
+}

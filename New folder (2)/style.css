@@ -1,0 +1,20 @@
+.anh_demo {
+  max-width: 300px;
+  /* pointer-events: none; */
+}
+
+.Home {
+  display: block;
+  padding: 10px 20px;
+  color: pink;
+  font-style: italic;
+  background-color: black;
+  border-radius: 50px;
+  font-size: 20px;
+  text-align: center;
+  pointer-events: none;
+}
+.box {
+  max-width: 700px;
+  display: block;
+}

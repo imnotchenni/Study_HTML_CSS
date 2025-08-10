@@ -1,0 +1,25 @@
+/* .item {
+  background-color: yellow;
+  border: 5px solid green;
+}
+
+.item1 {
+  margin-right: 10px;
+}
+
+.item2 {
+  margin-left: 10px;
+} */
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid green;
+}
+.box1 {
+  margin-bottom: 100px;
+}
+
+.box2 {
+  margin-top: 70px;
+}

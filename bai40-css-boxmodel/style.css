@@ -1,0 +1,32 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red;
+  /* padding-bottom: 70px; */
+  /* padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 25px; */
+
+  /* trên dưới trái phải  */
+  padding: 20px 30px;
+
+  /*  trên dưới - trái phải - dưới */
+  padding: 20px 30px 40px;
+
+  /*  trên  - trái - dưới - trái  */
+  padding: 20px 30px 40px 50px;
+
+  /* viền */
+  /* border: 10px double blue; */
+
+  /* thay đổi viền */
+  /* border-top: 10px double green;
+  border-bottom: 10px solid green; */
+  border-style: solid double dotted dashed;
+  border-width: 10px 5px 20px 15px;
+  border-color: pink green yellow black;
+  /* bo góc */
+  border-radius: 30px 10px 50px 4px;
+}

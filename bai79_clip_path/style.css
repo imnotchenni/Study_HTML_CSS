@@ -1,0 +1,25 @@
+.box {
+  /* background-position : center and cover là background-size */
+  background: url(./karina/karina1.jpg) center/cover;
+  clip-path: circle(100px);
+  width: 200px;
+  height: 200px;
+  box-shadow: 10px 10px 15px red;
+  margin: auto;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  background-color: pink;
+  box-shadow: 60px -17px;
+  box-shadow: inset 0px 17px 35px;
+}

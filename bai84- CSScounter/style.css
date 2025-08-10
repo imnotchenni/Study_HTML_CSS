@@ -1,0 +1,24 @@
+.box {
+  counter-reset: section;
+  padding-left: 30px;
+  background-color: antiquewhite;
+}
+
+h2 {
+  /* tăng biến đếm lên 1 */
+  counter-increment: section;
+  counter-reset: sub-section;
+}
+
+h2::before {
+  content: "Phần " counter(section) ": ";
+  color: red;
+}
+
+h3 {
+  counter-increment: sub-section;
+}
+
+h3::before {
+  content: counter(sub-section) ".";
+}

@@ -1,0 +1,57 @@
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-image: url(./bg/1.PNG);
+  border: 50px dotted green;
+  padding: 50px;
+  /* gốc của ảnh */
+/* background-origin: padding-box;
+  background-origin: border-box;
+  background-origin: content-box;
+
+  background-clip: padding-box;
+  background-clip: border-box;
+  background-clip: content-box; */
+/* } */
+*/ {
+}
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  border: 20px dotted blue;
+  padding: 90px;
+  background-color: red;
+  background-image: url(./bg/1.PNG); */
+/* background-position : vị trí bắt đầu đặt ảnh */
+/* background-position: bottom left; */
+/* background-size: cover; */
+
+/* background-repeat: no-repeat; */
+/* background-origin: padding-box; */
+/* background-origin: content-box; */
+/* background-attachment:fixed; */
+
+body {
+  width: 200%;
+  height: 200%;
+  background-image: url(./bg/tải\ xuống.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  margin-top: 50px;
+  height: 100px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.2); /* màu nền trong suốt */
+  backdrop-filter: blur(10px) constrast(50%); /* làm mờ nền phía sau */
+  -webkit-backdrop-filter: blur(10px); /* hỗ trợ Safari */
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+
+  @support (backdrop-filter: blur(10px) constrast(50%)) or (-webkit-backdrop-filter: blur(10px);
+  ) {
+  }
+}

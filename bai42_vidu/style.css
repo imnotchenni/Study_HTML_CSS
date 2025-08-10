@@ -1,0 +1,21 @@
+/* style.css */
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  background-color: red;
+}
+
+.box1 {
+  border: 10px solid blue;
+}
+
+.box2 {
+  border: 10px solid green;
+  margin-left: 235px;
+}
+
+.box3 {
+  border: 50px solid black;
+  margin-left: 475px;
+}

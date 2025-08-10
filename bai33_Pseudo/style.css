@@ -1,0 +1,81 @@
+/* cú pháp : hover khi di chuột */
+/* p:hover {
+  color: red;
+  font-size: 30px;
+}
+
+#line2:hover {
+  color: blue;
+}
+
+.xin_chao:hover {
+  color: blueviolet;
+}
+#hello:hover {
+  background-color: aquamarine;
+  color: blue;
+} */
+
+/* active */
+hello:active {
+  background-color: aquamarine;
+  color: blue;
+  font-size: 30px;
+}
+
+#hello:hover {
+  color: aqua;
+}
+
+.xin_chao:active {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+.bye:active {
+  color: red;
+  background-color: aqua;
+}
+
+/* 2. tác dụng vào selector khi di  chuột qua */
+.bye:active {
+  color: forestgreen;
+}
+/* 1. tác dụng vào selector khi nhấn giữ chuột  */
+p:hover {
+  color: red;
+}
+
+/* 3. tác dụng lên selector khi chưa click vào truy cập */
+.youtube:link {
+  color: blueviolet;
+}
+
+/* 4. tác dụng vào selector khi đã click vào truy cập   */
+.youtube:visited {
+  color: red;
+}
+
+.facebook:link {
+  color: blueviolet;
+}
+
+.facebook:visited {
+  color: red;
+}
+
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+h2:target {
+  color: blue;
+}

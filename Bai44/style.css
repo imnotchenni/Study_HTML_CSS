@@ -1,0 +1,16 @@
+.avt {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-left: -70px;
+}
+
+.avt:first-child {
+  margin-left: 0;
+}
+
+.content {
+  background-color: yellow;
+  padding: 10px;
+}

@@ -1,0 +1,35 @@
+p là thẻ con đầu tiên p:first-child {
+  color: red;
+  font-size: 30px;
+}
+
+/* p là thẻ con cuối cùng  */
+p:last-child {
+  color: blue;
+  font-size: 20px;
+}
+
+/* chọn thẻ con thứ 2 tính từ trên xuống  */
+/* p:nth-child(2) {
+  color: rgb(84, 88, 20);
+} */
+
+p:nth-child(even) {
+  color: aqua;
+}
+
+/* 
+n=0 => 1
+n = 1 => 4
+n = 2 => 7
+ */
+
+p:nth-child(3n + 1) {
+  color: red;
+  font-size: 30px;
+}
+/* chọn thẻ con tính dưới lên */
+/* p:nth-last-child(odd) {
+  color: blueviolet;
+  font-size: 30px;
+} */

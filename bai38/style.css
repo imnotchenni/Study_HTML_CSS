@@ -1,0 +1,19 @@
+/* universal selector */
+* {
+  color: red;
+}
+
+/* element selector */
+h1 {
+  color: blue;
+}
+
+/* class -pseudo class */
+
+.demo {
+  color: green;
+}
+/* id */
+#the1 {
+  color: yellow;
+}

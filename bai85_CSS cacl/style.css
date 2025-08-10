@@ -1,0 +1,11 @@
+.nav {
+  height: 100px;
+  background-color: wheat;
+  margin: 0 auto;
+  width: calc(100%-100px);
+}
+
+.main_content {
+  background-color: blue;
+  height: calc(100vh - 100px);
+}

@@ -1,0 +1,32 @@
+h1 {
+  color: brown;
+}
+
+#second {
+  color: aqua;
+}
+
+#third {
+  color: black;
+}
+p {
+  color: forestgreen;
+  font-style: italic;
+}
+
+.fourth {
+  color: blueviolet;
+}
+
+.demo {
+  color: black;
+  text-align: center;
+}
+.demo2 {
+  color: black;
+  text-align: left;
+}
+
+.Item_ul_1 {
+  list-style: none;
+}

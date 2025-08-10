@@ -1,0 +1,43 @@
+.container {
+  background-color: cyan;
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* align-items: stretch; */
+  align-items: flex-end;
+
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+
+  /* align-content: stretch; */
+  /* align-content: start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-around; */
+  /* align-content: space-between; */
+
+  /* justify là thay đổi vị trí theo chiều ngang  */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* alight-item là theo chiều dọc */
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+}
+
+.box {
+  background-color: blue;
+  border: 1px solid black;
+}
